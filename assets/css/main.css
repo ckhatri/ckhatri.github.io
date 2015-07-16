@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("font-mfizz-1.2/font-mfizz.css")
+@import url("font-mfizz-1.2/font-mfizz.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 /*
 	Photon by HTML5 UP
@@ -1738,6 +1738,13 @@ input[type="radio"] + label:before {
     color: #4a87d3; }
   .icon.style6:before {
     color: #6b88e6; }
+  .icon.custom {
+    -webkit-transform: rotate(90deg); /* Safari and Chrome */
+    -moz-transform: rotate(90deg);   /* Firefox */
+    -ms-transform: rotate(90deg);   /* IE 9 */
+    -o-transform: rotate(90deg);   /* Opera */
+    transform: rotate(90deg);
+  }
   .icon.major {
     text-decoration: none;
     color: #555;
